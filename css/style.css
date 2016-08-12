@@ -1,0 +1,624 @@
+﻿p {
+    margin: 0px 0px 0px 0px;
+}
+
+.carousel-inner div {
+    height: 326px;
+    background-size: 1354px;
+    width: 1354px;
+}
+
+#menuIcon {
+    margin: 15px 0px 0px 0px;
+}
+
+span {
+    margin: 0px 0px 0px 600px;
+}
+
+#menu {
+    width: 16px;
+    height: 12px;
+    margin-top: -4px;
+}
+.logo {
+    width: 247px;
+    height: 52px;
+    position: absolute;
+    margin-left: 353px;
+}
+.logoText {
+    font-size: 13px;
+    color: #747688;
+    margin-top: 5px;
+}
+
+/*blagoyart test*/
+.search {
+    /* устанавливаем необходимую ширину формы */
+    width: 496px;
+    height: 40px;
+    /* кнопку отправки будем позиционировать абсолютно,
+  ** поэтому необходимо это свойство */
+    position: relative;
+    margin-left: 643px;
+    margin-top: 30px;
+    margin-right: 0px;
+    font-family: 'PT Sans';
+}
+.search input {
+    /* отключаем бордюры у инпутов */
+    border: none;
+}
+
+/* стили для поля ввода */
+.search .input {
+    /* растягиваем поле ввода на всю ширину формы */
+    width: 100%;
+    /* за счет верхнего (10px) и нижнего (11px) внутренних отступов
+  ** регулируем высоту формы
+  ** внутренний отступ справа (37px) делаем больше левого,
+  ** т.к. там будет размещена кнопка отправки	*/
+    padding: 10px 37px 11px 15px;
+    /* чтобы ширина поля ввода (100%) включала в себя внутренние отступы */
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* добавляем внутренние тени */
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 0 2px rgba(0,0,0,0.3);
+    /* закругляем углы */
+    border-radius: 4px;
+    font-family: 'PT Sans';
+    font-size: 13px;
+    color: #555;
+    outline: none;
+}
+
+    /* меняем оформление поля ввода при фокусе */
+.search .input:focus {
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2), inset 0 0px 2px rgba(0,0,0,0.4);
+    color: #333;
+}
+    /* оформляем кнопку отправки */
+.search .submit {
+    /* позиционируем кнопку абсолютно от правого края формы */
+    position: absolute;
+    top: 0;
+    right: 5px;
+    width: 30px;
+    height: 35px;
+    cursor: pointer;
+    background: url('../img/search.png') 50% no-repeat;
+}
+
+/* данное свойство необходимо для того, чтобы в браузерах
+** Chrome и Safari можно было стилизовать инпуты */
+input[type="search"] {
+    -webkit-appearance: none;
+}
+
+.phoneNumber {
+    position: absolute;
+    float: left;
+    top: 35px;
+    right: 506px;
+    font-size: 23px;
+    font-family: 'PT Sans';
+    color: black;
+}
+.workTime {
+    position: absolute;
+    color: #cb944c;
+    float: left;
+    top: 33px;
+    right: 352px;
+    font-size: 14px;
+    font-family: 'PT Sans';
+
+}
+.delivery {
+    position: absolute;
+    float: left;
+    top: 47px;
+    right: 352px;
+    font-size: 14px;
+    font-family: 'PT Sans';
+    color: black;
+}
+
+.lineTop {
+    position: absolute;
+    z-index: 999;
+    top: 97px;
+    left: 338px;
+}
+
+.lineBottom {
+    position: absolute;
+    z-index: 999;
+    top: 150px;
+    left: 338px;
+}
+
+.navbar-static-top {
+    margin-top: 40px;
+    background: white;
+    border: none;
+    margin-left: 353px;
+    font-family: 'PT Sans' ;
+    font-weight: bold;
+    
+}
+
+.dropdown-toggle {
+    padding-left: -30px;
+}
+
+.marketTrolleyIcon {
+    position: relative;
+    padding: 13px 3px 5px 3px;
+    margin-left: 85px;
+}
+
+.counterIcon {
+    position: relative;
+    padding: 13px 3px 5px 3px;
+    margin-left: 6px;
+    margin-right: 0;
+}
+
+.userIcon {
+    position: relative;
+    padding: 13px 3px 5px 3px;
+    margin-left: 18px;
+}
+
+.caret {
+    display: inline-block;
+    margin-left: 10px;
+    top: 20px;
+    right: 500px;
+    width: 11px;
+    height: 11px;
+    cursor: pointer;
+    background: url('../img/arrow.png') 50% no-repeat;
+}
+.caretActive{
+    display: inline-block;
+    float: right;
+    margin: -15px 0px 0 170px;
+    top: 0px;
+    right: 500px;
+    width: 11px;
+    height: 11px;
+    cursor: pointer;
+    background: url('../img/arrowActive.png') 50% no-repeat;
+}
+
+.container {
+    width: 1920px;
+}
+
+#products {
+    font-family: 'PT Sans';
+    font-weight: bold;
+    margin-left: -10px;
+}
+
+.slides {
+    position:absolute;
+    z-index: -1;
+        top:0; 
+        left: 283px;
+        min-width:100%;
+        min-height:100%;
+}
+
+.glyphicon-chevron-left:hover {
+    color: #cb944c;
+}
+
+.glyphicon-chevron-right:hover {
+    color: #cb944c;
+}
+
+.lastPosition {
+    padding-bottom: 20px;
+}
+
+.firstPosition {
+    padding-top: 20px;
+}
+
+.headDropdownSecond {
+    position: relative;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #cb944c;
+    list-style: none;
+    top: 12px;
+    left: -15px;
+    }
+
+.headDropdown2:hover {
+    text-decoration: none;
+}
+
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+    display: block;
+}
+
+
+@media (max-width: 768px) {
+    .logo > img {
+        width: 180px;
+        height: auto;
+        background-size: cover;
+        position: absolute;
+        margin-left: -323px;
+    }
+
+    .logoText {
+        position: relative;
+        font-size: 12.9px;
+        color: #747688;
+        margin-top: 25px;
+        margin-left: -324px;
+    }
+
+    .search {
+        width: 220px;
+        height: 30px;
+        position: relative;
+        margin-left: 250px;
+        margin-top: 23px;
+        margin-right: 0px;
+        font-family: 'PT Sans';
+    }
+
+        .search .input {
+            width: 100%;
+            padding: 10px 37px 11px 15px;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            border-radius: 4px;
+            font-family: 'PT Sans';
+            font-size: 10px;
+            color: #555;
+            outline: none;
+        }
+
+        .search .submit {
+            position: absolute;
+            top: 0;
+            right: 5px;
+            width: 20px;
+            height: 35px;
+            cursor: pointer;
+            background: url('../img/search.png') 50% no-repeat;
+        }
+
+
+    .phoneNumber {
+        position: absolute;
+        float: left;
+        top: 23px;
+        right: 145px;
+        font-size: 14px;
+        font-family: 'PT Sans';
+        font-weight: bold;
+        color: black;
+    }
+
+    .workTime {
+        position: absolute;
+        color: #cb944c;
+        float: left;
+        top: 23px;
+        right: 31px;
+        font-size: 11px;
+        font-family: 'PT Sans';
+    }
+
+    .delivery {
+        position: absolute;
+        float: left;
+        top: 35px;
+        right: 31px;
+        font-size: 11px;
+        font-family: 'PT Sans';
+        color: black;
+    }
+
+    .lineTop > img {
+        position: absolute;
+        width: 742px;
+        z-index: 9999;
+        top: 4px;
+        left: -326px;
+    }
+
+    .lineBottom > img {
+        position: absolute;
+        width: 742px;
+        z-index: 999;
+        top: 8px;
+        left: -326px;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        left: -325px;
+        top: 11px;
+        font-size: 11.7px;
+    }
+
+    .marketTrolleyIcon > img {
+        width: 15px;
+        height: auto;
+        position: relative;
+        margin-top: -180px;
+        margin-left: 390px;
+    }
+
+    .counterIcon > img {
+        width: 18px;
+        height: auto;
+        position: absolute;
+        margin-left: -4px;
+        margin-top: -87px;
+    }
+
+    .userIcon > img {
+        width: 16px;
+        height: auto;
+        position: absolute;
+        padding: 0px;
+        margin-left: 110px;
+        margin-top: -87px;
+    }
+
+    .enter {
+        position: absolute;
+        margin-left: 130px;
+        margin-top: -77px;
+        padding: 0 !important;
+    }
+
+    .productsTotal {
+        position: absolute;
+        margin-left: 10px;
+        margin-top: -93px;
+    }
+
+    .slides {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 13px;
+        width: 100%;
+        height: 100%;
+    }
+
+    #leftChevron {
+        position: absolute;
+        left: 13px;
+        top: 57px;
+        width: 21px;
+        height: 65px;
+    }
+
+    #rightChevron {
+        position: absolute;
+        right: 13px;
+        top: 57px;
+        width: 21px;
+        height: 65px;
+    }
+
+    .carousel-inner div {
+        background-size: 742px;
+        width: 742px;
+        height: auto;
+    }
+
+    .carousel-control .icon-prev,
+    .carousel-control .icon-next,
+    .carousel-control .glyphicon-chevron-left,
+    .carousel-control .glyphicon-chevron-right {
+        font-size: 14px;
+        margin-top: -5px;
+    }
+
+    .carousel-control .icon-prev,
+    .carousel-control .glyphicon-chevron-left {
+        left: 30%;
+        margin-left: -10px;
+    }
+
+    .carousel-control .icon-next,
+    .carousel-control .glyphicon-chevron-right {
+        right: 30%;
+        margin-right: -10px;
+    }
+    .carousel-indicators {
+       top: 200px;
+    }
+}
+
+@media (max-width: 320px) {
+    .search {
+    display: none;
+    }
+    .phoneNumber {
+    display: none;
+    }
+    .workTime {
+    display: none;
+    }
+    .delivery {
+    display: none;
+    }
+    .lineTop {
+    display: none;
+    }
+    .lineBottom {
+    display: none;
+    }
+
+    .menuMobile {
+        width: 54px;
+        height: 40px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #3eade2;
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        line-height: 35px;
+    }
+    .homeMobile {
+        width: 53px;
+        height: 40px;
+        position: absolute;
+        top: 0;
+        left: 54px;
+        background-color: #f0f1f6;
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        line-height: 35px;
+    }
+    .searchMobile {
+        width: 53px;
+        height: 40px;
+        position: absolute;
+        top: 0;
+        left: 107px;
+        background-color: #f0f1f6;
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        line-height: 35px;
+    }
+    .trolleyMobile {
+        width: 53px;
+        height: 40px;
+        position: absolute;
+        top: 0;
+        left: 160px;
+        background-color: #f0f1f6;
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        line-height: 35px;
+    }
+    .userMobile {
+        width: 53px;
+        height: 40px;
+        position: absolute;
+        top: 0;
+        left: 213px;
+        background-color: #f0f1f6;
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        line-height: 35px;
+    }
+    .contactsMobile {
+        width: 53px;
+        height: 40px;
+        position: absolute;
+        top: 0;
+        left: 266px;
+        background-color: #f0f1f6;
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        line-height: 35px;
+    }
+
+     .logo > img {
+        width: 250px;
+        height: auto;
+        background-size: cover;
+        position: absolute;
+        margin-top: 24px;
+        margin-left: -337px;
+    }
+
+    .logoText {
+        position: relative;
+        font-size: 16px;
+        color: #747688;
+        margin-top: 55px;
+        margin-left: -324px;
+    }
+    .slides {
+        position: absolute;
+        z-index: -1;
+        top: 35px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    #leftChevron {
+        position: absolute;
+        left: 0;
+        top: 83px;
+        width: 20px;
+        height: 28px;
+    }
+
+    #rightChevron {
+        position: absolute;
+        right: 0;
+        top: 83px;
+        width: 20px;
+        height: 28px;
+    }
+
+    .carousel-inner div {
+        background-size: 320px;
+        width: 520px;
+        height: 125px;
+    }
+
+    .carousel-control .icon-prev,
+    .carousel-control .icon-next,
+    .carousel-control .glyphicon-chevron-left,
+    .carousel-control .glyphicon-chevron-right {
+        font-size: 14px;
+        margin-top: -5px;
+    }
+
+    .carousel-control .icon-prev,
+    .carousel-control .glyphicon-chevron-left {
+        left: 60%;
+        margin-left: -10px;
+    }
+
+    .carousel-control .icon-next,
+    .carousel-control .glyphicon-chevron-right {
+        right: 60%;
+        margin-right: -10px;
+    }
+    .carousel-indicators {
+       visibility: hidden;
+    }
